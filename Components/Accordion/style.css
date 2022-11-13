@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+ width: 600px;
+ background-color: lightcoral;
+ padding: 20px;
+}
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.accordion-headdings{
+    margin-bottom: 15px;
+}
+.accordion-headdings-2{
+    border: 5px,solid,rgb(0, 194, 103);
+
+}
+.first-box{
+    width: 70%;
+    background-color: aliceblue;
+}
+.number{
+    display: inline-block;
+    margin-left: 15px;
+}
+.heading{
+    display: inline-block;
+}
+.symbol{
+    width: 25px;
+    height:25px;
+}
+.text{
+    margin-left: 20px;
+}
+.list-item{
+    margin-left: 18px;
+}
